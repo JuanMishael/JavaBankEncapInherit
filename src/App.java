@@ -3,7 +3,7 @@ import java.util.Scanner;
 public class App {
     static Scanner in= new Scanner(System.in);   // scanner as global variable so i dont have to create another object per class
         
-    static class Data{                    // data class 
+    abstract static class Data{                    // data class 
             private static int acNum;
             private static String name;
             private static int curBalance;
